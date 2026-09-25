@@ -1,0 +1,19 @@
+name: usir-public
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch=2.5
+  - torchvision=0.20
+  - pytorch-cuda=12.1
+  - pip
+  - pip:
+      - diffusers==0.35.1
+      - transformers==4.49.0
+      - accelerate==1.4.0
+      - safetensors==0.5.3
+      - pillow==11.1.0
+      - numpy==2.2.3
+      - pytest==8.3.4
