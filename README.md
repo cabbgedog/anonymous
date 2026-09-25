@@ -12,7 +12,7 @@ conda activate usir-public
 Download the FLUX.2-klein-base-9B base model and provide its local path with
 `--model_path`.
 
-Download the USIR adapter from Hugging Face and place these files at:
+Download the USIR adapter from [anonymous1usir/UISR_adapter](https://huggingface.co/anonymous1usir/UISR_adapter) and place these files at:
 
 ```text
 weights/adapter/adapter_model.safetensors
